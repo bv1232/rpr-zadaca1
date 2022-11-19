@@ -6,7 +6,7 @@ import java.util.Stack;
 public class ExpressionEvaluator {
     /*
     *@param string an arbitrary string
-    *@return boolean value true if the expression is a valid
+    *@return boolean value true if the expression is valid
     */
     public static boolean isValid(String string){
         int nO = 0, nC = 0, brZ = 0;
